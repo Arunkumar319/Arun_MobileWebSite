@@ -1,0 +1,57 @@
+
+<html>
+<head>
+    <title> Arun-991617387</title>
+</head>
+<body>
+
+    <h1>Transaction successful</h1>
+    <label>firstname: <label>
+    <span id="datainfo"></span>
+    <br>
+    <label>lastname: <label>
+        <span id="datainfo2"></span>
+        <br>
+        <label>Email: <label>
+            <span id="datainfo3"></span>
+            <br>
+            <label>Age: <label>
+                <span id="datainfo4"></span>
+                <br>
+                <label>City: <label>
+                    <span id="datainfo5"></span>
+                    
+                        <br>
+                        <label>Movie: <label>
+                            <span id="datainfo6"></span> 
+                            
+                        <br>
+                        <label>Date: <label>
+                            <span id="datainfo7"></span>
+                            
+                            <br>
+                        <label><label>
+                            <span id="datainfo8"></span>
+
+
+           <button onclick="backButton()">Take me Back!</button>
+
+<script>
+    document.getElementById("datainfo").innerHTML = localStorage.getItem("textvalue");
+    document.getElementById("datainfo2").innerHTML = localStorage.getItem("textvalue2");
+    document.getElementById("datainfo3").innerHTML = localStorage.getItem("textvalue3");
+    document.getElementById("datainfo4").innerHTML = localStorage.getItem("textvalue4");
+    document.getElementById("datainfo5").innerHTML = localStorage.getItem("textvalue5");
+    document.getElementById("datainfo6").innerHTML = localStorage.getItem("textvalue6");
+    document.getElementById("datainfo7").innerHTML = localStorage.getItem("textvalue7");
+    document.getElementById("datainfo8").innerHTML = localStorage.getItem("textvalue8");
+    function backButton() {
+
+window.history.back();
+
+}
+</script>
+    
+
+</body>
+</html>
